@@ -1,11 +1,19 @@
 
-function survey(person1,color1,dob) {
+function survey(person1,color1,dob, favFood, pet name, ) {
   return person1 + color1 + dob;
 }
 
 
 
-
+$(dpcument).ready(function() {
+  $("button#red").click(function() {
+    $("body").removeClass();
+    $("body").addClass("red-background");
+  });
+  $("start").click(function() {
+    $(".")
+  })
+});
 
 
 $(document).ready(function() {
@@ -20,7 +28,7 @@ alert(result);
 });
 
 
-
+if (person1Input && )
 
 
 
