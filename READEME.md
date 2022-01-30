@@ -28,9 +28,9 @@ _{This webpage contains a survey for individuals to find which Coding language i
 
 ## Known Bugs
 
-* _ _
-* _ _
-* _ _
+* _No style sheet _
+* _No javascript _
+* _not complete _
 *_ _
 
 ## License
