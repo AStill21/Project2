@@ -39,7 +39,7 @@ const result = faveNumber(faveNumberInput) {
   }
 };
 alert(result).concat(" Is this your final answer?") {
-  prompt("Are you sure? Click OK for yes or Cancel for no.")};
+  confirm(prompt("Are you sure? Click OK for yes or Cancel for no."))};
   });
 });
 
