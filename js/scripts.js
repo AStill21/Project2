@@ -68,13 +68,20 @@ $(document).ready(function() {
     const bornInput = $("input#born").val();
 
     $(".person1").text(person1Input);
-    $(".person2").text(person2Input);
-    $(".animal").text(animalInput);
-    $(".exclamation").text(exclamationInput);
-    $(".verb").text(verbInput);
-    $(".noun").text(nounInput);
+    $(".sAnimal").text(sAnimalInput);
+    $(".pet").text(petInput);
+    $(".faveDinner").text(faveDinnerInput);
+    $(".color").text(colorInput);
+    $(".born").text(bornInput);
 
-    $("#story").show();
+    if (color="red") {
+      $("#python").show();
+    } even if (color="blue") {
+      $("#go").show();
+    } even () {
+      $("swift")
+    }
+    
   });
 });
 
