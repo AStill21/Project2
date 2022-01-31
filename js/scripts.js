@@ -47,14 +47,14 @@ alert(result).concat(" Is this your final answer?") {
 
 
 
-$(document).ready(function() {
-  $("#formOne").submit(function() {
-    $(".person1").append(person1Input);
-    $(".color1").append(color1Input);
-    $(".dob").append(bornInput);
-    $(".faveNumber").append(faveNumberInput);
-  });
-});
+//  $(document).ready(function() {
+//    $("#formOne").submit(function() {
+//      $(".person1").append(person1Input);
+//      $(".color1").append(color1Input);
+//      $(".dob").append(bornInput);
+      //$(".faveNumber").append//(faveNumberInput);
+//    });
+ // });
 
 
 
