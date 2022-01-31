@@ -4,6 +4,13 @@
 #python {
   display: none;
 }
+#go {
+  disply: none;
+}
+
+#swift {
+  display:none;
+}
 
 body {
   background-color: blueviolet;
@@ -27,9 +34,3 @@ body {
   background-color: red;
 }
 
-#go {
-  disply: none;
-}
-#swift {
-  display:none;
-}
