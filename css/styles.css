@@ -1,22 +1,28 @@
-#survey {
+#python {
   display: none;
 }
-
+body {
+  background-color: blueviolet;
+}
 .start-show {
   display: none;
 }
 
-.survey-showing {
+#survey-showing {
   display: none;
 }
-p {
+.clickable {
   cursor: pointer;
   color: #0088cc;
 }
 
-p:hover {
+.clickable:hover {
   text-decoration: underline;
 }
 .red-background {
   background-color: red;
+}
+
+#go {
+  disply: none;
 }
