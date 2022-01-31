@@ -24,13 +24,13 @@
     
         <button class="btn btn-danger" id="red">Begin</button>
       
-      <div class="survey-showing">
+    <div class="survey-showing">
         <form id="formOne">
           <div class="form-group">
             <label for="person1">Your name</label>
             <input id="person1" class="form-control" type="text">
 
-          <button class="btn btn-success" id="green">Next</button>
+      //* <button class="btn btn-success" id="green">Next</button> *//
   
         <div class="question-hidden">
           <h2> Best/Favorite Color </h2>  
@@ -41,7 +41,7 @@
             
     
     
-          <h3>Question 1</h3>
+          <h3 class="question1">Question 1</h3>
             <div class="form-group">
               <label for="born">Date of birth:</label>
               <input id="born" class="form-control" type="date">
@@ -49,6 +49,7 @@
                       
           <h4>Question 2</h4>
             <div class="form-group">
+              <label for="spiritAnimal">Spirit Animal</label>
               <select class="form-control" id="spiritAnimal">
                 <option value="1">Wolf</option>
                 <option value="2">Hawk</option>
@@ -63,10 +64,11 @@
               <input id="faveNumber" class="form-control" type="text">
             </div>
 
-          <h3>Question 4</h3>
+          <h3>Question 4
+            <label for="faveFlavor">Favorite Icecream Flavor</label>
           <div class="radio">
             <label>
-              <input type="radio" name="flavor" value="chocolate" checked>
+            <input type="radio" name="flavor" value="chocolate" checked>
               Chocolate-chip cookiedough
             </label>
           </div>
@@ -109,7 +111,7 @@
           
             
             
-            <button type="submit" class="btn">Show me the survey!</button>
+            <button type="submit" class="btn btn-success">Show me the survey!</button>
     </div>
 
     <div class="card">
@@ -121,11 +123,15 @@
             </div>
           </div>
           <div id="python">
-            <p>Click here <span class="clickable"><img src="img/python.jpg" alt="picture of a snake"></span>to learn more!</p>
-            <a href="https://www.python.org/">Python for Beginners!</a>
+            <p>Click here
+              <a><span class="clickable"><img src="img/python.jpg" alt="picture of a snake"></span>
+              to learn more!<a href="https://www.python.org/">Python for Beginners!</a></a>
+            </p>
           </div>
 
-          <div id="go"
+          <div id="go">
+            <p>Click here <span class="clickable">HERE!!!</span> to learn about</p>
+          </div>
         </div>
       </div>
     </div>

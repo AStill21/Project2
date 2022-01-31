@@ -1,11 +1,11 @@
 
-function survey(person1,color1,dob, favFood, pet name, ) {
-  return person1 + color1 + dob;
+function survey(person1,color1,dob,favFood, pet name, ) {
+  return person1 + color1 + dob + flavor + ;
 }
 
 
 
-$(dpcument).ready(function() {
+$(document).ready(function() {
   $("button#red").click(function() {
     $("body").removeClass();
     $("body").addClass("red-background");
@@ -13,14 +13,9 @@ $(dpcument).ready(function() {
   $(".clickable").click(function() {
     $("#survey-showing").toggle();
     $("#survey-hidden").toggle();
-    $(".question-hidden").hide();
-    $(".question1-hidden").hide();
-    $(".question2-hidden").hide();
-    $(".question3-hidden").hide();
-    $(".question4-hidden").hide();
-    $(".question5-hidden").hide();
-    $(".question6-hidden").hide();
-    $(".question7-hidden").hide();
+    $("#python").hide();
+    $("#go").hide();
+    $("#swift").hide();
 
   });
 });
@@ -54,10 +49,10 @@ $(document).ready(function() {
 
 
 
-if (flavor === chocolate) {
-  $(#outcome1).show();
-} else if (result === option 2) {
-  $(#outcome2).show();
+if (flavor === "chocolate") {
+  $(#python).show();
+} else if (flavor === "vanilla") {
+  $(#go).show();
 } else {
-  $(#outcome3).show();
+  $(#swift).show();
 }

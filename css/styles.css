@@ -1,6 +1,10 @@
+#p-hidden {
+  display: none;
+}
 #python {
   display: none;
 }
+
 body {
   background-color: blueviolet;
 }
@@ -25,4 +29,7 @@ body {
 
 #go {
   disply: none;
+}
+#swift {
+  display:none;
 }
