@@ -1,7 +1,22 @@
-.red-background {
-  background-color: red;
+#survey {
+  display: none;
 }
 
 .start-show {
   display: none;
+}
+
+.survey-showing {
+  display: none;
+}
+p {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+.red-background {
+  background-color: red;
 }

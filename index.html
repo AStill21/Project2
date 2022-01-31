@@ -21,18 +21,18 @@
 
           </ul>
         </p>
-
+    
         <button class="btn btn-danger" id="red">Begin</button>
+      
       <div class="survey-showing">
         <form id="formOne">
           <div class="form-group">
             <label for="person1">Your name</label>
             <input id="person1" class="form-control" type="text">
-          </div>
 
           <button class="btn btn-success" id="green">Next</button>
   
-        <div class
+        <div class="question-hidden">
           <h2> Best/Favorite Color </h2>  
             <div class="form-group">
               <label for="color1">Favorite Color</label>
@@ -49,8 +49,12 @@
                       
           <h4>Question 2</h4>
             <div class="form-group">
-              <label for="animal">Spirit Animal</label>
-              <input id="animal" class="form-control" type="text">
+              <select class="form-control" id="spiritAnimal">
+                <option value="1">Wolf</option>
+                <option value="2">Hawk</option>
+                <option value="3">Kangaroo</option>
+                <option value="4">Whale</option>
+              </select>
             </div>
 
           <h3>Question 3</h3>
@@ -60,35 +64,69 @@
             </div>
 
           <h3>Question 4</h3>
-            <div class="form-group">
-              <label for="snack">Late Night Snack</label>
-              <input id="born" class="form-control" type="date">
-            </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="chocolate" checked>
+              Chocolate-chip cookiedough
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="vanilla">
+              Vanilla bean
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="cheese">
+              Cheesecake
+            </label>
+          </div>
           
           <h3>Question 5</h3>
-            <div class="form-group">
-              <label for="born">Date of birth:</label>
-              <input id="born" class="form-control" type="date">
-            </div>
+          <select class="form-control" id="faveFood">
+            <option value="5">Fried chicken</option>
+            <option value="6">Pizza</option>
+            <option value="7">Mac'n'cheese</option>
+            <option value="8">Burgers</option>
+          </select>
 
           <h3>Question 6</h3>
-            <div class="form-group">
-              <label for="born">Date of birth:</label>
-              <input id="born" class="form-control" type="date">
-            </div>
+          <select class="form-control" id="seasons">
+            <option value="9">Spring</option>
+            <option value="10">Summer</option>
+            <option value="11">Winter</option>
+            <option value="12">Autum/Fall</option>
+          </select>
           
           <h3>Question 7</h3>
-            <div class="form-group">
-              <label for="born">Date of birth:</label>
-              <input id="born" class="form-control" type="date">
-            </div>
-
-            
+          <select class="form-control" id="beverage">
+            <option value="13">Coffee/Energy drink</option>
+            <option value="14">Tea/water</option>
+            <option value="15">soda/juice</option>
+            <option value="16">Alcohol</option>
+          </select>
+          
             
             
             <button type="submit" class="btn">Show me the survey!</button>
-          </form>
+    </div>
 
+    <div class="card">
+      <div class="card-body">
+        <div class="card-text">
+          <div class="p-hidden">
+            <div id="python">
+            <p>Congradulations! Your match is Python!</p>
+            </div>
+          </div>
+          <div id="p-showing">
+            <p>Click here <span class="clickable"><img src="img/python.jpg" alt="picture of a snake"></span>to learn more!</p>
+            <a href="https://www.python.org/">Python for Beginners!</a>
+          </div>
+
+        </div>
+      </div>
     </div>
   </form>
 </body>
