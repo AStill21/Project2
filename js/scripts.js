@@ -1,6 +1,6 @@
 
-function survey(person1,color1,dob,favFood, pet name, ) {
-  return person1 + color1 + dob + flavor + ;
+function survey(faveNumberInput) {
+  return faveNumberInput;
 }
 
 
@@ -28,9 +28,18 @@ const person1Input = $("input#person1").val();
 const color1Input = $("input#color1").val();
 const dob = $("#born").val();
 const flavor = $("input:radio[name=flavor]:checked").val();
-const result = survey(person1Input+" ", color1Input+" " , dob+" " , flavor);
+const faveNumber = parseInt($('faveNumber').val());
+const result = faveNumber(faveNumberInput) {
+  if (faveNumber >= 25) {
+    $(#python).show();
+  } else if (faveNumber === 50 || faveNumber < 65) {
+    $(#go).show();
+  } else {
+    $(#swift).show();
+  }
+};
 alert(result).concat(" Is this your final answer?") {
-  const submit=confirm("Are you sure? Click OK for yes or Cancel for no.")};
+  prompt("Are you sure? Click OK for yes or Cancel for no.")};
   });
 });
 
@@ -43,16 +52,10 @@ $(document).ready(function() {
     $(".person1").append(person1Input);
     $(".color1").append(color1Input);
     $(".dob").append(bornInput);
+    $(".faveNumber").append(faveNumberInput);
   });
 });
 
 
 
 
-if (flavor === "chocolate") {
-  $(#python).show();
-} else if (flavor === "vanilla") {
-  $(#go).show();
-} else {
-  $(#swift).show();
-}
