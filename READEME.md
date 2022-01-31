@@ -28,10 +28,10 @@ _{This webpage contains a survey for individuals to find which Coding language i
 
 ## Known Bugs
 
-* _No style sheet _
-* _No javascript _
-* _not complete _
-*_ _
+* _.clickables not working_
+* _results aren't showing up affter last button is clicked_
+* _if statement isn;t showinf results properly_
+*_Pictures within result answers aren't showing_
 
 ## License
 ### MIT
