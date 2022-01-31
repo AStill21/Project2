@@ -5,11 +5,11 @@
 
 
 
-// $(document).ready(function() {
-//   $("button#red").click(function() {
-//     $("body").removeClass();
-//     $("body").addClass("red-background");
-//   });
+$(document).ready(function() {
+  $("button#red").click(function() {
+    $("body").removeClass();
+    $("body").addClass("red-background");
+  });
 //   $(".clickable").click(function() {
 //     $("#survey-showing").toggle();
 //     $("#survey-hidden").toggle();
@@ -63,9 +63,9 @@
     const person1Input = $("input#person1").val();
     const sAnimalInput = $("input#sAnimal").val();
     const petInput= $("input#pet").val();
-    const faveDinnerInput = $("input#exclamation").val();
-    const verbInput = $("input#verb").val();
-    const nounInput = $("input#noun").val();
+    const faveDinnerInput = $("input#faveDinner").val();
+    const colorInput = $("input#color").val();
+    const bornInput = $("input#born").val();
 
     $(".person1").text(person1Input);
     $(".person2").text(person2Input);
