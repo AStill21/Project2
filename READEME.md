@@ -30,8 +30,8 @@ _{This webpage contains a survey for individuals to find which Coding language i
 
 * _.clickables not working_
 * _results aren't showing up affter last button is clicked_
-* _if statement isn;t showinf results properly_
-*_Pictures within result answers aren't showing_
+* _if..even statement isn't showing results properly_
+*_Pictures within result answers aren't hidden propperly nor showing properly_
 
 ## License
 ### MIT
